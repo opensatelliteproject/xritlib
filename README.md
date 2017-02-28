@@ -19,4 +19,5 @@ sudo make install
 
 ### Dependencies 
 - [libaec](https://github.com/MathisRosenhauer/libaec)
+- [Boost](http://www.boost.org)
 
