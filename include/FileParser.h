@@ -2,7 +2,6 @@
 #define _FILEPARSER_H_
 
 #include <vector>
-#include "Headers/XRitBaseHeader.h"
 #include "Header.h"
 #include "Tools.h"
 

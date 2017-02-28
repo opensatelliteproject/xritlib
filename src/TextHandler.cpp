@@ -8,7 +8,7 @@ namespace XRIT {
             f.erase(f.begin(), f.begin()+(int)header.PrimaryHeader.HeaderLength);
             ProcessFile(f, outputFolder, header);
         } else {
-            //wm->Log("Expected header type 0 for first header. Got " + to_string((int)f.at(0)) + ".", 3);
+            cout << "Expected header type 0 for first header. Got " << (int)f.at(0) << "." << endl;
         }
     }
 
