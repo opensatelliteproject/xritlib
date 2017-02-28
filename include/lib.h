@@ -25,6 +25,7 @@
     #include "Header.h"
     #include "FileParser.h"
     #include "ImageHandler.h"
+    #include "TextHandler.h"
     #include "MSDU.h"
     #include "NOAAProduct.h"
     #include "NOAASubproduct.h"
