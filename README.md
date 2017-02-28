@@ -1,5 +1,4 @@
 # xritlib
-***Warning:*** Work in Progress.<br>
 This program works with LRIT and HRIT packets from NOAA Geostationary Satellites (GOES-13, GOES-15, GOES-16 and GOES-14). 
 
 ### Installation 
