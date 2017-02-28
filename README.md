@@ -13,6 +13,11 @@ make
 sudo make install
 ```
 
+### Usage
+``` c++
+#include <xrit/lib.h> // Wildcard Header
+``` 
+
 ### Dependencies 
 - [libaec](https://github.com/MathisRosenhauer/libaec)
 

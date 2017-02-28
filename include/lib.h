@@ -31,5 +31,6 @@
     #include "NOAASubproduct.h"
     #include "Presets.h"
     #include "Tools.h"
+    #include "AEC.h"
 
 #endif
