@@ -2,20 +2,20 @@
 #define _Header_H_
 
 #include <vector>
-#include "Headers/AncillaryHeader.h"
-#include "Headers/AnnotationHeader.h"
-#include "Headers/DCSFilenameHeader.h"
-#include "Headers/HeaderStructuredHeader.h"
-#include "Headers/ImageDataFunctionHeader.h"
-#include "Headers/ImageNavigationHeader.h"
-#include "Headers/ImageStructureHeader.h"
-#include "Headers/NOAASpecificHeader.h"
-#include "Headers/PrimaryHeader.h"
-#include "Headers/RiceCompressionHeader.h"
-#include "Headers/SegmentIdentificationHeader.h"
-#include "Headers/TimestampHeader.h"
-#include "Headers/XRITBaseHeader.h"
-#include "Types/CompressionType.h"
+#include "headers/AncillaryHeader.h"
+#include "headers/AnnotationHeader.h"
+#include "headers/DCSFilenameHeader.h"
+#include "headers/HeaderStructuredHeader.h"
+#include "headers/ImageDataFunctionHeader.h"
+#include "headers/ImageNavigationHeader.h"
+#include "headers/ImageStructureHeader.h"
+#include "headers/NOAASpecificHeader.h"
+#include "headers/PrimaryHeader.h"
+#include "headers/RiceCompressionHeader.h"
+#include "headers/SegmentIdentificationHeader.h"
+#include "headers/TimestampHeader.h"
+#include "headers/XRITBaseHeader.h"
+#include "types/CompressionType.h"
 #include "NOAAProduct.h"
 #include "NOAASubproduct.h"
 
@@ -38,7 +38,7 @@ namespace XRIT {
             vector<XRITBaseHeader> UnknownHeaders;
 
             Header() {
-                
+
             }
 
             string Filename() {

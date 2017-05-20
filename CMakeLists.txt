@@ -28,8 +28,8 @@ set(CMAKE_MACOSX_RPATH 1)
 
 # Includes
 include_directories ("${PROJECT_SOURCE_DIR}/include")
-include_directories ("${PROJECT_SOURCE_DIR}/include/Headers")
-include_directories ("${PROJECT_SOURCE_DIR}/include/Types")
+include_directories ("${PROJECT_SOURCE_DIR}/include/headers")
+include_directories ("${PROJECT_SOURCE_DIR}/include/types")
 
 # Library Source Code
 file(GLOB SOURCES src/*.cpp)
@@ -52,12 +52,12 @@ install(TARGETS ${PROJECT_NAME}_s DESTINATION lib)
 
 # Install library headers
 file(GLOB HEADERS include/*.h)
-file(GLOB HEADERS_HEADERS include/Headers/*.h)
-file(GLOB HEADERS_TYPES include/Types/*.h)
+file(GLOB HEADERS_HEADERS include/headers/*.h)
+file(GLOB HEADERS_TYPES include/types/*.h)
 
 install(FILES ${HEADERS} DESTINATION include/${PROJECT_NAME})
-install(FILES ${HEADERS_HEADERS} DESTINATION include/${PROJECT_NAME}/Headers)
-install(FILES ${HEADERS_TYPES} DESTINATION include/${PROJECT_NAME}/Types)
+install(FILES ${HEADERS_HEADERS} DESTINATION include/${PROJECT_NAME}/headers)
+install(FILES ${HEADERS_TYPES} DESTINATION include/${PROJECT_NAME}/types)
 
 # Debian Package
 SET(CPACK_GENERATOR "DEB")

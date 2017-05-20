@@ -2,7 +2,7 @@
 #define _XRITBASEHEADER_H_
 
 #include <vector>
-#include "../Types/HeaderType.h"
+#include "../types/HeaderType.h"
 
 using namespace std;
 namespace XRIT {

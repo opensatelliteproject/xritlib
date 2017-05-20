@@ -4,7 +4,7 @@
 #include <map>
 #include <string>
 #include "NOAASubproduct.h"
-#include "Types/NOAAProductID.h"
+#include "types/NOAAProductID.h"
 
 using namespace std;
 namespace XRIT {
