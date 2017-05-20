@@ -21,7 +21,7 @@ set (goesdump_VERSION_MINOR 0)
 set(VERSION_INFO_MAINT_VERSION 0)
 
 # Flags
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O2 -pipe -march=native")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O2 -pipe -march=native -fpermissive")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O2 -pipe -march=native")
 set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 set(CMAKE_MACOSX_RPATH 1)
