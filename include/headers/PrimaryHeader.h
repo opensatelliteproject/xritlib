@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <cstring>
 #include "XRITBaseHeader.h"
-#include "../Types/FileTypeCode.h"
+#include "../types/FileTypeCode.h"
 #include "../Tools.h"
 
 using namespace std;

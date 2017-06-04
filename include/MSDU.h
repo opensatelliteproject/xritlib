@@ -3,7 +3,7 @@
 
 #include <map>
 #include <vector>
-#include "Types/SequenceType.h"
+#include "types/SequenceType.h"
 #include "Tools.h"
 
 using namespace std;

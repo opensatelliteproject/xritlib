@@ -2,7 +2,7 @@
 #define _NOAASUBPRODUCT_H_
 
 #include <string>
-#include "Types/ScannerSubProduct.h"
+#include "types/ScannerSubProduct.h"
 
 using namespace std;
 namespace XRIT {

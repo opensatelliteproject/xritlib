@@ -4,7 +4,7 @@
 #include <cstdint>
 #include <cstring>
 #include "XRITBaseHeader.h"
-#include "../Types/CompressionType.h"
+#include "../types/CompressionType.h"
 #include "../Tools.h"
 
 using namespace std;
